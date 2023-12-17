@@ -8,6 +8,6 @@
 ```
 Result<IChannel*> createSerialPortChannel(Stream &stream);
 ```
-* The Stream object passed by reference to 'createSerialPortChannel' must be initialized in the suer code.
+* The Stream object passed by reference to 'createSerialPortChannel' must be initialized in the user code.
 
 ##### See the BasicLidarDemo example for usage of the library's functions.
