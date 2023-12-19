@@ -10,4 +10,4 @@ Result<IChannel*> createSerialPortChannel(Stream &stream);
 ```
 * The Stream object passed by reference to 'createSerialPortChannel' must be initialized in the user code.
 
-##### See the BasicLidarDemo example for usage of the library's functions. Also see the prototypes of public functions in the 'ILidarDriver' class in sl_lidar_driver.h. Finally see the [SDK User Manual](https://download-en.slamtec.com/api/download/rplidar-sdk-manual/2.0?lang=en).
+##### See the BasicLidarDemo example for usage of the library's functions. Also see the prototypes of public functions in the 'ILidarDriver' class in sl_lidar_driver.h. Finally see [Slamtec's SDK User Manual](https://download-en.slamtec.com/api/download/rplidar-sdk-manual/2.0?lang=en).
